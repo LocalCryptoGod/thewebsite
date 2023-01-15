@@ -1,0 +1,75 @@
+body {
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(249, 247, 244), rgb(254, 131, 0))
+}
+
+a { 
+    text-decoration: none;
+}
+
+.myname {
+    height: 190px;
+    color: gray;
+    font-size: clamp(2vw, 5vw, 5vw);
+    text-shadow: 0px 0px 5px black;
+    margin-top: 45px;
+    
+    
+}
+
+.mylion {
+    flex: 1;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.realcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 33%;
+}
+
+.linktext {
+
+    color: black;
+    text-shadow: 0px 0px 6px gray;
+    
+}
+
+.twitterlogo {
+    flex: 2;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.twitterlink {}
+
+#email {
+    margin-bottom: 50px;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.emaillogo {
+    flex: 3;
+    height: 160Px;
+    padding-bottom: 40px;
+}
+
+.threedcubs {
+
+    padding-top: 50px;
+    max-width: 33%;
+}
