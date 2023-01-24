@@ -13,17 +13,18 @@ a {
 }
 
 .myname {
+
     height: 190px;
     color: gray;
     font-size: clamp(2vw, 5vw, 5vw);
-    text-shadow: 0px 0px 5px black;
+    text-shadow: -3px 3px 5px black;
     margin-top: 45px;
     
     
 }
 
 .mylion {
-    flex: 1;
+   
     padding-top: 40px;
     width: 100%;
 }
@@ -41,35 +42,92 @@ a {
     width: 33%;
 }
 
-.linktext {
-
+#linktext {
+    font-size: 76px;
     color: black;
     text-shadow: 0px 0px 6px gray;
+    width: 33vw;
     
 }
 
 .twitterlogo {
-    flex: 2;
+   
     height: 200px;
     padding-bottom: 10px;
 }
 
-.twitterlink {}
+.twitterlink {
+ 
+}
 
 #email {
     margin-bottom: 50px;
     font-size: xx-large;
     text-decoration: none;
+    color: red;
+    font-weight: bold ;
+    text-shadow: 3px 3px 1xp rgb(0, 0, 0);
 }
 
 .emaillogo {
     flex: 3;
     height: 160Px;
     padding-bottom: 40px;
+    width: 25vw;
+    aspect-ratio: 1.1;
 }
 
 .threedcubs {
 
     padding-top: 50px;
     max-width: 33%;
+}
+
+.gradient-text {
+    
+    
+    margin-top: 25px;
+    letter-spacing: 10px;
+    -webkit-text-stroke: 5px black;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: clamp(25px, 50px, 50px);
+    font-weight:lighter;
+    background-color: #CA4246;
+  
+  /* Create the gradient. */
+   background-image: linear-gradient(
+        45deg,blue, red);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+
+
+}
+  
+
+
+.otherthings { 
+
+    margin-left: auto; 
+    margin-right: auto;
+
 }
